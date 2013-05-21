@@ -9,3 +9,33 @@ Version:        0.1.0
 */
 
 @import url("../twentytwelve/style.css");
+
+/* header */
+
+#page {
+	border-radius: 3px;
+	position: relative;
+	z-index: 1;
+}
+
+#masthead hgroup {
+	background-color: rgba(255,255,255,.25);
+	position: absolute;
+	padding: 0 1em .5em;
+}
+
+#masthead .header-img-wrapper {
+	margin: -24px -40px 0;
+	margin: -1.714285714rem -2.857142857rem 0;
+}
+#masthead .header-img-wrapper  .main-navigation {
+	margin-top: 0;
+	padding: 0 2.857142857rem;
+	border-top: none;
+}
+
+#masthead .header-image { 
+	border-radius: 3px 3px 0 0;
+	max-width: 100%;
+	margin: 0;
+}
